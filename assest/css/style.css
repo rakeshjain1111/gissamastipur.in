@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+}
+
+.bg-denger2{background: #FD0100;}
+.bg-primary2{background:#02006D ;}
+
+
+
+.nav-item{
+    padding: 34px 22px;
+}
+.nav-item:hover{
+    background: #FD0100;
+}
+.nav-item:hover .nav-link{
+    color:#ffffff
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border: none;
+    left: 0px;
+    top: 110px;
+}
+
+ .dropdown-item:hover{
+    background: #FD0100;
+}
