@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #545454;
-}
 
 .bg-denger2{background: #FD0100;}
 .bg-primary2{background:#02006D ;}
@@ -17,7 +11,7 @@ body{
 
 
 .nav-item{
-    padding: 34px 22px;
+    padding: 25px 22px;
 }
 .nav-item:hover{
     background: #FD0100;
