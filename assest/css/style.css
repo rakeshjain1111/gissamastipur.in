@@ -9,8 +9,9 @@
 .bg-primary2{background:#02006D ;}
 .bg-warning2{background: #f0aa00;}
 .bg-info2{background: #0789e6;}
-/* navbar section start*/
 
+
+/* navbar section start*/
 .nav-item{
     padding: 27px 22px;
 }
@@ -66,6 +67,9 @@
   .carousel-item:nth-child(2){
     animation: slidedown 0.8s;
   }
+
+
+
 
   @keyframes slideup{
     0%{
