@@ -1,28 +1,41 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 
-.bg-denger2{background: #FD0100;}
-.bg-primary2{background:#02006D ;}
-.bg-warning2{background: #f0aa00;}
-.bg-info2{background: #0789e6;}
+.bg-denger2 {
+    background: #FD0100;
+}
+
+.bg-primary2 {
+    background: #02006D;
+}
+
+.bg-warning2 {
+    background: #f0aa00;
+}
+
+.bg-info2 {
+    background: #0789e6;
+}
 
 
 /* navbar section start*/
-.nav-item{
+.nav-item {
     padding: 27px 22px;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     background: #FD0100;
 }
-.nav-item:hover .nav-link{
-    color:#fff;
+
+.nav-item:hover .nav-link {
+    color: #fff;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
     display: block;
     border: none;
     left: 0px;
@@ -31,69 +44,92 @@
     border-radius: 0;
 }
 
-.dropdown-item{
+.dropdown-item {
     font-weight: 600;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.dropdown-item:focus, .dropdown-item:hover{
+
+.dropdown-item:focus,
+.dropdown-item:hover {
     color: #ffffff;
     background: #ffb607;
 }
- /* navbar section end */
 
- /* slider section start */
+/* navbar section end */
 
- .carousel-caption{
+/* slider section start */
+
+.carousel-caption {
     bottom: 25rem;
- }
+}
 
- .carousel-caption h5, .carousel-caption p{
+.carousel-caption h5,
+.carousel-caption p {
     font-family: 'Times New Roman', Times, serif;
-     font-size: 60px;
-     font-weight: bold;
- }
+    font-size: 60px;
+    font-weight: bold;
+}
 
-  .carousel-caption p{font-size: 18px;}
+.carousel-caption p {
+    font-size: 18px;
+}
 
-  .carousel-item:first-child{
+.carousel-indicators {
+    margin-bottom: 10rem;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    bottom: 200px;
+    border-radius: 50%;
+}
+
+.carousel-item:first-child {
     animation: slideup 0.8s;
-  }
+}
 
-  .carousel-item:nth-child(2){
+.carousel-item:nth-child(2) {
     animation: slidedown 0.8s;
-  }
+}
 
-  .carousel-item:nth-child(2){
+.carousel-item:nth-child(2) {
     animation: slidedown 0.8s;
-  }
+}
 
 
 
 
-  @keyframes slideup{
-    0%{
+@keyframes slideup {
+    0% {
         transform: translateY(350px);
-    }100%{
+    }
+
+    100% {
         transform: translateY(0);
     }
-  }
+}
 
-  @keyframes slidedown{
-    0%{
+@keyframes slidedown {
+    0% {
         transform: translateY(-200px);
-    }100%{
+    }
+
+    100% {
         transform: translateY(0);
     }
-  }
+}
 
- /* slider section end */
+/* slider section end */
+/* ourfeature section start */
 
- /* ourfeature section start */
-    
- .ourfeature{
-    position: relative;
-    top: -50px;
-    
- }
- /* ourfeature section start */
+
+@media (min-width: 992px) {
+    .ourfeature {
+        position: relative;
+        top: -150px;
+    }
+}
+
+/* ourfeature section end */
