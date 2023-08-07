@@ -133,3 +133,43 @@
 }
 
 /* ourfeature section end */
+
+/* online learning Section start */
+   
+   .onlinelearning p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 26px;
+    color: #52575e;
+    font-weight: 400;
+   }
+
+/* online learning Section end */
+
+/* ourPopularClass section start */
+
+    .ourpopularclass{
+        background: linear-gradient(rgba(2, 3, 14, 0.5),rgba(0,0,0,0.6)) ,url("../img/10.jpeg");
+        height: 800px;
+        margin-top: 50px;
+    }
+
+    .ourpopularclass h1{
+        color: #fff;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .ourpopularclass:after{
+            content: "";
+            width: 54px;
+            height: 2px;
+            background: #f0aa00;
+            margin-left: -26px;
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+    }
+/* ourPopularClass section end */
+
