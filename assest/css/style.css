@@ -149,94 +149,26 @@
 
 /* ourPopularClass section start */
 
-    .ourpopularclass{
+    .classes{
         background: linear-gradient(rgba(2, 3, 14, 0.5),rgba(0,0,0,0.6)) ,url("../img/10.jpeg");
-        height: 900px;
         margin-top: 50px;
     }
 
-    .ourpopularclass h1{
+    .classes h1{
         color: #fff;
         font-size: 60px;
         font-weight: bold;
     }
-
-    .ourpopularclass:after{
-            content: "";
-            width: 54px;
-            height: 2px;
-            background: #f0aa00;
-            margin-left: -26px;
-            position: absolute;
-            bottom: -20px;
-            left: 50%;
+    
+    .classes .card{
+        width: 350px;
+        height: auto;
     }
+    
 
 
     /* ////////// */
 
-    .item {
-      margin: 10px;
-        width: 370px;
-        height: 480px;
-        background-color: aliceblue;
-        border: 1px red;
-    }
-    
-    
-    
-    .image{
-        position: relative;
-    }
-    
-    .time {
-        background-color: green;
-        font-size: 12px;
-        height: 15px;
-        width: 125px;
-        padding: 10px 12px;
-        position: absolute;
-        bottom: 5px;
-        right: 20px;
-        border-radius: 6px 6px 0 0;
-        margin-bottom: 6px;
-        color: white;
-    }
-
-    .path-box{
-        padding: 26px 26px 16px 26px;
-    }
-    .path-box a{
-        
-        text-decoration: none;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: #000;
-        font-weight:bold ;
-        font-size: 25px;
-        
-    }
-    
-    .path-box p{
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 10px;
-        font-size: 15px;
-       
-    }
-    
-    .student-box{
-        display: flex;
-        border: 1px solid #e6e6e6;
-        margin-top: 15px;
-        padding-top: 10px;
-        justify-content: space-between;
-    }
-
-    .slider{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-       
-    }
 
     /* ////////// */
 /* ourPopularClass section end */
